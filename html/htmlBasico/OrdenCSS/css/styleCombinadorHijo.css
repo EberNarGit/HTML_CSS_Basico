@@ -1,0 +1,9 @@
+/* la etiqueta div que sea mayor a <p> */
+div > p{
+    color: red;
+}
+
+img{
+    height: 15%;
+    width: 15%;
+}

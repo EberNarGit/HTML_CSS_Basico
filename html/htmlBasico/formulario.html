@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <form action="">
+        <label for="Nombre">
+            <span>Nombre:</span>
+            <input type="text" id="Nombre" placeholder="nombre o nombres" autocomplete="name" required>
+        </label>
+        <br>
+        <label for="Apellido">
+            <span>Apellido:</span>
+            <input type="text" id="Apellido" placeholder="apellido paterno" autocomplete="name" required>
+        </label>
+        <br>
+        <label for="ApellidoM">
+            <span>Apellido:</span>
+            <input type="text" id="ApellidoM" placeholder="apellido materno" autocomplete="name" required>
+        </label>
+        <br>
+        <label for="Correo">
+            <span>Correo:</span>
+            <input type="email" id="Correo" placeholder="ejemplo@gmail.com" autocomplete="email" required>
+        </label>
+        <br>
+        <label for="Numero">
+            <span>Telefono:</span>
+            <input type="number" id="Numero" placeholder="(555)-555-55-55" autocomplete="tel-local-prefix" required>
+        </label>
+        <br>
+        <label for="Nacimiento">
+            <span>Fecha de Nacimiento:</span>
+            <input type="date" id="Nacimiento" autocomplete="bday" required>
+        </label>
+        <input type="submit" value="cambie el nombre">
+        <button type="submit">Enviar</button>
+    </form>
+</body>
+</html>

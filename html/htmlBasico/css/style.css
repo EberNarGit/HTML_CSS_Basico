@@ -1,0 +1,46 @@
+h1{
+    color: black;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 28px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+main{
+    background-color: rgb(73, 183, 120);
+    color: black;
+}
+
+.img{
+    width:10%;
+}
+
+.main-nav{
+    margin-top: 10px;
+    list-style: none;
+    padding: 0;
+    background-color: rgb(73, 183, 120);
+}
+
+.main-nav__item{
+    display: inline-block;
+}
+
+.main-nav__item a{
+    color: white;
+    padding: 5px;
+    border-radius: 2px;
+    text-decoration: none;
+    background-color:rgb(1, 143, 100);
+}
+.main-nav__item a:hover{
+    color: black;
+}
+
+.main-nav__item a:active{
+    color: blue;
+}
+
+.main-nav__item a::before{
+    content: "|";
+}

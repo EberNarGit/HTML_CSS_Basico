@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Combinador Hijo</title>
+        <link rel="stylesheet" href="./css/styleCombinadorHijo.css">
+    </head>
+    <body>
+        <p>Con este combinador se tomara la etiqueta que descienda de la etiqueta 
+            padre en este ejemplo solo toma los div que pertenecen a div</p>
+        <p>En cambio el combinatorio descendiente aplicaria el estilo a todos los parrafos</p>
+        <div>
+            <article>
+                <p>Soy un texto</p>
+            </article>
+            <article>
+                <p>Soy un texto</p>
+            </article>
+            <section>
+                <div>
+                   <p>Soy un texto</p> 
+                </div>
+            </section>
+            <p>Soy un texto</p>
+        </div>
+        <figure>
+            <img src="./image/Hijo.jpg" alt="Hijo">
+        </figure>
+    </body>
+</html>

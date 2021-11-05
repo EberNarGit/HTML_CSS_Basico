@@ -1,0 +1,12 @@
+*{
+    background-color: rgb(0, 128, 64);
+}
+
+h2 + p{
+    color: red;
+}
+
+.img{
+    height: 15%;
+    width: 15%;
+}

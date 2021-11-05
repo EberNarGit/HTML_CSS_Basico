@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale:1.0">
+        <title>Orden al declarar en CSS</title>
+        <link rel="stylesheet" href="./css/style.css">
+    </head>
+    <body>
+        <main>
+            <nav>
+                <h1>Importancia</h1>
+                <ul class="main-nav">
+                    <li> 1. Hoja de estilo de agente de usuario (Estilos del navegador)</li>
+                    <li> 2. Declaraciones normales en hojas de estilo de autor(Nuestro css)</li>
+                    <li> 3. Declaraciones importantes en hojas de estilo de autor (utilizar el !import)</li> 
+                </ul>
+                <h1>Especificidad</h1>
+                <figure>
+                    <img src="./image/especificidad.jpg" alt="Especificidad">
+                <p>En este caso !important es el mas importante asi los demas elementos hasta llegar al de menos prioiridad el tag</p>
+                <p>1. !important <br>2. inline style <br>3. #id <br>4. .class <br>5. tag</p>
+                </figure>
+                <h1>Reglas de cascada</h1>
+                <figure>
+                    <img src="./image/RCascada.jpg" alt="Reglas">
+                </figure>
+                <h1>Orden de las fuentes</h1>
+                <p>En los estilos se aplicaran los cambios del final al inicio</p>
+            </nav>
+        </main>
+    </body>
+</html>
